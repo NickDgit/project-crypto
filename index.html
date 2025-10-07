@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Price Tracker</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header>
+    <h1>Crypto Price Tracker</h1>
+    <button id="theme-toggle" class="btn">Toggle Theme</button>
+  </header>
+  <!--
+<section class="info-section">
+  <p>Track your favorite crypto coins with live charts and market data.</p>
+  <input type="text" id="search-bar" placeholder="Search coin...">
+</section> -->
+
+  <main>
+    <div id="coin-selection" class="collapsible-container">
+      <button id="toggle-coins" class="toggle-button">Select Coins <span id="arrow">▼</span></button>
+      <div id="coins-dropdown" class="collapsed">
+        <label for="coin-select">Select coins:</label>
+        <select id="coin-select" multiple size="10">
+          <option value="bitcoin">Bitcoin</option>
+          <option value="ethereum">Ethereum</option>
+          <option value="cardano">Cardano</option>
+          <option value="solana">Solana</option>
+          <option value="ripple">Ripple</option>
+          <option value="litecoin">Litecoin</option>
+          <option value="dogecoin">Dogecoin</option>
+          <option value="polkadot">Polkadot</option>
+          <option value="binancecoin">Binance Coin</option>
+          <option value="avalanche">Avalanche</option>
+          <option value="chainlink">Chainlink</option>
+          <option value="uniswap">Uniswap</option>
+        </select>
+        <br><br>
+        <button id="select-all" class="btn">Select All</button>
+        <button id="show-top5-overall" class="btn">Show Top 5 Overall</button>
+        <button id="show-selected" class="btn">Show Selected Coins</button>
+      </div>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="🔍 Search for a coin...">
+    </div>
+
+    <div id="crypto-container"></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <footer>
+    <p>© 2025 Crypto Tracker | Built with ❤️</p>
+    <div class="social-links">
+      <a href="#">Twitter</a> |
+      <a href="#">GitHub</a> |
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
