@@ -12,9 +12,22 @@ A web application to track live cryptocurrency prices with interactive charts an
 - ✅ Interactive price charts with Chart.js
 
 ## 💻 Technologies
-- HTML5, CSS3, JavaScript
+- HTML5
+- CSS3
+- JavaScript
 - Chart.js
 - CoinGecko API
+
+## 📁 Project Structure
+
+project-crypto/
+├── images/
+│ ├── favicon.png
+│ └── screenshot.png
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
 ## 🚀 Usage
 
