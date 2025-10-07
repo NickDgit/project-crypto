@@ -19,7 +19,7 @@ A web application to track live cryptocurrency prices with interactive charts an
 - CoinGecko API
 
 ## 📁 Project Structure
-
+```
 project-crypto/
 ├── images/
 │ ├── favicon.png
@@ -28,6 +28,7 @@ project-crypto/
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 ## 🚀 Usage
 
