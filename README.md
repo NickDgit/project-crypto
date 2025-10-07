@@ -4,19 +4,20 @@ A web application to track live cryptocurrency prices with interactive charts an
 
 ![Screenshot](images/screenshot.png)
 
-## Features
-- Display top cryptocurrencies by market cap
-- Search for specific coins
-- Theme toggle (dark/light)
-- Responsive design for all devices
-- Interactive price charts with Chart.js
+## 🛠 Features
+- ✅ Display top cryptocurrencies by market cap
+- ✅ Search for specific coins
+- ✅ Theme toggle (dark/light)
+- ✅ Responsive design for all devices
+- ✅ Interactive price charts with Chart.js
 
-## Technologies
+## 💻 Technologies
 - HTML5, CSS3, JavaScript
 - Chart.js
 - CoinGecko API
 
-## Usage
+## 🚀 Usage
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/NickDgit/project-crypto.git
@@ -25,8 +26,8 @@ A web application to track live cryptocurrency prices with interactive charts an
 3. Use the dropdown to select coins and see live charts.
 4. Toggle the theme using the button at the top.
 
-## Contact
-- GitHub: NickDgit
-- Email: nickdougias@outlook.com
+## 📬 Contact
+- 🐱 GitHub: NickDgit
+- 📧 Email: nickdougias@outlook.com
 
 
